@@ -16,6 +16,13 @@
     },
     "plugins": [
         "prism",
-        "-highlight"
-    ] 
+        "-highlight",
+        "atoc"
+    ],
+    "pluginsConfig": {
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        }
+    }
 }
